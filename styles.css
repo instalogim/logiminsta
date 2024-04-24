@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column; /* Alinha os elementos verticalmente */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  margin-top: 200px;
+
+}
+.container {
+  text-align: center;
+  border: 1px solid #c7c7c795;
+  border-radius: 1px;
+  width: 320px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.photo-frame {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.photo-frame img {
+  display: block;
+  width: 100%;
+}
+
+.login-form {
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.my-paragraph {
+  color: rgb(190, 188, 188); /* Altere "green" para a cor desejada */
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  display: block;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b3b0b0e5;
+  border-radius: 1px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 20px;
+}
+#meu-paragrafo {
+    font-size: 11px;
+    line-height: 1;
+    margin: 0;
+    color: rgb(49, 42, 149);
+}
+a {
+  text-decoration: none;
+}
+.second-container {
+  width: 350px;
+  padding: 5px;
+}
+.image-container {
+    display: inline-block; /* Torna os elementos em linha */
+    margin-right: 20px; /* Define o espaçamento entre as imagens */
+    
+  }
+  #meu-paragraf {
+    font-size: 12px;
+    line-height: 1;
+    margin: 0;
+    color: rgb(150, 150, 150);
+}
